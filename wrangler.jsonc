@@ -1,5 +1,5 @@
 {
-  "name": "my-v0-project",
+  "name": "v0-oms-po-c-s1",
   "compatibility_date": "2024-12-18",
   "compatibility_flags": ["nodejs_compat"],
   "pages_build_output_dir": ".vercel/output/static"
