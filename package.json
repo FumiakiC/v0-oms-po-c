@@ -2,11 +2,13 @@
   "name": "my-v0-project",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
+　"scripts": {
     "build": "next build",
     "dev": "next dev",
     "lint": "eslint .",
-    "start": "next start"
+    "start": "next start",
+    "pages:build": "npx @cloudflare/next-on-pages",
+    "deploy": "npm run pages:build && wrangler deploy"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
