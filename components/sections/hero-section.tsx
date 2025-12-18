@@ -87,7 +87,7 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="text-lg text-slate-400 mb-12"
         >
-          提案者: 千葉 奎耀
+          提案者: CHIBA FUMIAKI
         </motion.p>
 
         {/* CTA Button */}

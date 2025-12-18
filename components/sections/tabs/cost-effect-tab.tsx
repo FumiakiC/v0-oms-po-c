@@ -24,8 +24,8 @@ const metrics = [
   {
     icon: TrendingDown,
     label: "処理コスト削減",
-    value: "¥1,000 → ¥168",
-    unit: "/件 (-83%)",
+    value: "¥2,409 → ¥1",
+    unit: "/件 (-99.5%)",
     color: "text-emerald-600 dark:text-emerald-400",
     bgColor: "bg-emerald-100 dark:bg-emerald-950/50",
   },
@@ -78,7 +78,7 @@ export function CostEffectTab() {
                     transition={{ duration: 1, delay: 0.5 }}
                     className="h-full bg-gradient-to-r from-red-400 to-red-500 rounded-lg flex items-center justify-end pr-3"
                   >
-                    <span className="text-xs text-white font-medium">¥1,000/件</span>
+                    <span className="text-xs text-white font-medium">¥2,409/件</span>
                   </motion.div>
                 </div>
               </div>
@@ -87,16 +87,16 @@ export function CostEffectTab() {
               <div className="space-y-2">
                 <div className="flex justify-between text-sm">
                   <span className="text-slate-600 dark:text-slate-400">AI支援処理</span>
-                  <span className="font-semibold text-emerald-600 dark:text-emerald-400">17%</span>
+                  <span className="font-semibold text-emerald-600 dark:text-emerald-400">1%</span>
                 </div>
                 <div className="h-8 bg-slate-100 dark:bg-slate-700 rounded-lg overflow-hidden">
                   <motion.div
                     initial={{ width: 0 }}
-                    animate={{ width: "17%" }}
+                    animate={{ width: "1%" }}
                     transition={{ duration: 1, delay: 0.8 }}
                     className="h-full bg-gradient-to-r from-emerald-400 to-emerald-500 rounded-lg flex items-center justify-end pr-3"
                   >
-                    <span className="text-xs text-white font-medium">¥168/件</span>
+                    <span className="text-xs text-white font-medium">¥1/件</span>
                   </motion.div>
                 </div>
               </div>
@@ -105,7 +105,7 @@ export function CostEffectTab() {
               <div className="flex items-center justify-center gap-4 pt-4 border-t border-slate-200 dark:border-slate-700">
                 <div className="flex items-center gap-2 text-emerald-600 dark:text-emerald-400">
                   <ArrowDown className="w-5 h-5" />
-                  <span className="text-2xl font-bold">83%</span>
+                  <span className="text-2xl font-bold">99%</span>
                 </div>
                 <span className="text-slate-600 dark:text-slate-400">工数削減</span>
               </div>
