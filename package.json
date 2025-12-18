@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "build": "next build",
+    "deploy": "npm run pages:build && npx wrangler pages deploy .vercel/output/static",
     "dev": "next dev",
     "lint": "eslint .",
-    "start": "next start",
     "pages:build": "npx @cloudflare/next-on-pages",
-    "deploy": "npm run pages:build && npx wrangler pages deploy .vercel/output/static"
+    "start": "next start"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",

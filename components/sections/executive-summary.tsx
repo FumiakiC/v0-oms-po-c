@@ -26,7 +26,7 @@ const summaryItems = [
   {
     icon: Cpu,
     title: "ソリューション",
-    highlight: "Gemini API x AWS Lightsail",
+    highlight: "Gemini API",
     description: "Low Cost, High Accuracy",
     color: "from-indigo-500 to-blue-500",
     bgColor: "bg-indigo-50 dark:bg-indigo-950/50",
