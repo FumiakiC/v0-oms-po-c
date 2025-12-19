@@ -24,7 +24,7 @@ const metrics = [
   {
     icon: TrendingDown,
     label: "処理コスト削減",
-    value: "¥2,409 → ¥1",
+    value: "¥2,409 → ¥10",
     unit: "/件 (-99.5%)",
     color: "text-emerald-600 dark:text-emerald-400",
     bgColor: "bg-emerald-100 dark:bg-emerald-950/50",
@@ -96,7 +96,7 @@ export function CostEffectTab() {
                     transition={{ duration: 1, delay: 0.8 }}
                     className="h-full bg-gradient-to-r from-emerald-400 to-emerald-500 rounded-lg flex items-center justify-end pr-3"
                   >
-                    <span className="text-xs text-white font-medium">¥1/件</span>
+                    <span className="text-xs text-white font-medium">¥10/件</span>
                   </motion.div>
                 </div>
               </div>
