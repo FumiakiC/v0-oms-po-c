@@ -35,7 +35,7 @@ const summaryItems = [
   {
     icon: Target,
     title: "目標",
-    highlight: "工数90%削減",
+    highlight: "工数削減+負担軽減",
     description: "& コンプライアンス担保",
     color: "from-emerald-500 to-teal-500",
     bgColor: "bg-emerald-50 dark:bg-emerald-950/50",
